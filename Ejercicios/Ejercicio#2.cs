@@ -38,17 +38,18 @@ public class Programador : Empleado
     }
 }
 
-public class Program
-{
-    static void Main()
-    {
-        // Imprimimos todo los datos de los usuarios
-        Empleado empleado1 = new Empleado();
-        empleado1.MostrarInformacion();
-        Gerente gerente1 = new Gerente();
-        gerente1.MostrarInformacion();
-        Programador programador1 = new Programador();
-        programador1.MostrarInformacion();
-        Console.ReadLine();
-    }
-}
+//public class program2
+//{
+//    static void main()
+//    {
+//        // imprimimos todo los datos de los usuarios
+//        empleado empleado1 = new empleado();
+//        empleado1.mostrarinformacion();
+//        gerente gerente1 = new gerente();
+//        gerente1.mostrarinformacion();
+//        programador programador1 = new programador();
+//        programador1.mostrarinformacion();
+//        console.readline();
+//    }
+//}
+

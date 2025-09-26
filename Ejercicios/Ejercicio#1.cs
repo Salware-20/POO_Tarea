@@ -25,7 +25,7 @@ public class CuentaBancaria
     }
 }
 
-//public class Program
+//public class Program1
 //{
 //    static void Main()
 //    {
