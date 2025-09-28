@@ -1,7 +1,8 @@
-﻿//--> Ejercicio 3 – Abstracción con Clases Abstractas <--
+﻿//--> Ejercicio 4 – Abstracción con Clases Abstractas <--
 
 public abstract class Figura
 {
+    // Se crea una funcion la cual no hace nada hasta que otra clase la sobrecribe y la adapta a su necesidad
     public abstract double CalcularArea();
 }
 
@@ -41,7 +42,7 @@ public class Program4
     {
         Cuadrado cua = new Cuadrado(5);
         Console.WriteLine(cua.CalcularArea());
-        Triangulo tri = new Triangulo(5,8);
+        Triangulo tri = new Triangulo(5, 8);
         Console.WriteLine(tri.CalcularArea());
     }
 }

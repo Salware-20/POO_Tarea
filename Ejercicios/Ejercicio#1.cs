@@ -25,40 +25,40 @@ public class CuentaBancaria
     }
 }
 
-//public class Program1
-//{
-//    static void Main()
-//    {
-//        CuentaBancaria Cuenta = new CuentaBancaria();
-//        // Cree un menu donde usando while logro que el sistema no se caiga aun con errores y diferentes problemas que pueda presentar
-//        while (true)
-//        {
-//            try
-//            {
-//                Console.WriteLine("Que deseas hacer: \n1] Depositar\n2] Retirar\n3] Ver saldo\n4] Cerrar");
-//                string? input = Console.ReadLine();
-//                int opcion = Convert.ToInt32(input);
-//                if (opcion == 1)
-//                {
-//                    Console.Write("Cuanto deseas depositar: ");
-//                    string? input_ = Console.ReadLine();
-//                    double monto = Convert.ToDouble(input_);
-//                    Cuenta.DepositarDinero(monto);
-//                }
-//                else if (opcion == 2) 
-//                {
-//                    Console.Write("Cuanto deseas retirar: ");
-//                    string? input_ = Console.ReadLine();
-//                    double monto = Convert.ToDouble(input_);
-//                    Cuenta.RetirarDinero(monto);
-//                }
-//                else if (opcion == 3)
-//                {
-//                    Console.WriteLine(Cuenta.VerSaldo());
-//                }
-//                else { Console.WriteLine("Nos vemos..."); break; }
-//            }
-//            catch (Exception ex) { Console.WriteLine($"ERROR: {ex.Message}"); }
-//        }
-//    }
-//}
+public class Program1
+{
+    static void Main()
+    {
+        CuentaBancaria Cuenta = new CuentaBancaria();
+        // Cree un menu donde usando while logro que el sistema no se caiga aun con errores y diferentes problemas que pueda presentar
+        while (true)
+        {
+            try
+            {
+                Console.WriteLine("Que deseas hacer: \n1] Depositar\n2] Retirar\n3] Ver saldo\n4] Cerrar");
+                string? input = Console.ReadLine();
+                int opcion = Convert.ToInt32(input);
+                if (opcion == 1)
+                {
+                    Console.Write("Cuanto deseas depositar: ");
+                    string? input_ = Console.ReadLine();
+                    double monto = Convert.ToDouble(input_);
+                    Cuenta.DepositarDinero(monto);
+                }
+                else if (opcion == 2)
+                {
+                    Console.Write("Cuanto deseas retirar: ");
+                    string? input_ = Console.ReadLine();
+                    double monto = Convert.ToDouble(input_);
+                    Cuenta.RetirarDinero(monto);
+                }
+                else if (opcion == 3)
+                {
+                    Console.WriteLine(Cuenta.VerSaldo());
+                }
+                else { Console.WriteLine("Nos vemos..."); break; }
+            }
+            catch (Exception ex) { Console.WriteLine($"ERROR: {ex.Message}"); }
+        }
+    }
+}
