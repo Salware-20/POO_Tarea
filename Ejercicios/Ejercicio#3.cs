@@ -16,14 +16,14 @@ public class Calculadora
     }
 }
 
-public class Program3
-{
-    static void Main(string[] args)
-    {
-        Calculadora Calc = new Calculadora();
+//public class Program3
+//{
+//    static void Main(string[] args)
+//    {
+//        Calculadora Calc = new Calculadora();
 
-        Console.WriteLine(Calc.Suma(10, 11));
-        Console.WriteLine(Calc.Suma(10, 11, 21));
-        Console.WriteLine(Calc.Suma(10.10, 11.11));
-    }
-}
+//        Console.WriteLine(Calc.Suma(10, 11));
+//        Console.WriteLine(Calc.Suma(10, 11, 21));
+//        Console.WriteLine(Calc.Suma(10.10, 11.11));
+//    }
+//}
